@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-
+    // check that the correct amount of arguments are entered into the command line
     if (argc != 3){
         printf("Usage: <integer> <integer>\n");
         return 0;
